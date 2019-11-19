@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px){
+  footer{
+    font-size: 6px;
+  }
+}
+@media only screen and (max-height: 1000px){
+  .icon{
+    width: 20px;
+    height: 20px;
+  }
+  
+}
+html{
+	background-color: #4864e0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+  text-decoration-line: underline;
+}
+figcaption{
+  margin-top: 40px;
+  font-size: 26px;
+}
+footer{
+  background-color: gray;
+  text-align: right;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.headers{
+  padding-top: 100px;
+	text-align: center;
+	font-family: "raleway", sans-serif;
+	font-size: 2em;
+		
+}
+.icon{
+	width: 40px;
+	height: 40px;
+	padding-right: 30px;
+}
+.project-tile{
+  height: 256px;
+  width: 256px;
+}
+#navbar{
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar li{
+  float: right;
+}
+#navbar a{
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+#navbar a:hover{
+  background-color: #111;
+}
+#welcome-section{
+  margin-top: 100px;
+  height: 100vh;
+}
+#title{
+  color: white;
+  background-color: #374cab;
+  border-radius: 45px;
+	text-align: center;
+	font-family: poppins, sans-serif;
+	letter-spacing: 1px;
+	font-size: 3.5em;
+  #padding: 2em 0;
+}
+#about{
+	font-family: roboto, sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#resume{
+  text-align: center;
+  margin-top: 30vh;
+	text-align: center;
+	font-family: "poppins", sans-serif;
+	font-size: 2.5em;
+}
+#projects{
+  height: 100vh;
+  /*margin: 100vh 0;*/
+  background-color: #7848E0;
+}
+#project-list{
+  font-family: roboto, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+#social{
+  background-color: ##48B0E0;
+  height: 100vh;
+  /*margin-top: 550px;*/
+  /*margin: 10em 0;*/
+}
+#social-links{
+	display: flex;
+	justify-content: space-evenly;
+  padding: 20vh 0;
+	text-align: center;
+	font-family: "roboto",sans-serif;
+	font-size: 1.5em;
+	}
