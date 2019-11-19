@@ -12,6 +12,7 @@
 }
 html{
 	background-color: #4864e0;
+	scroll-behavior: smooth;
 }
 ul{
 	list-style-type: none;
