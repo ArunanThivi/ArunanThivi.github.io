@@ -1,15 +1,4 @@
-@media only screen and (max-width: 768px){
-  footer{
-    font-size: 6px;
-  }
-}
-@media only screen and (max-height: 1000px){
-  .icon{
-    width: 20px;
-    height: 20px;
-  }
-  
-}
+
 html{
 	background-color: #4864e0;
 	scroll-behavior: smooth;
@@ -29,27 +18,39 @@ figcaption{
   font-size: 26px;
 }
 footer{
-  background-color: gray;
-  text-align: right;
-  font-size: 18px;
-  padding: 10px 0;
+	background-color: gray;
+	text-align: right;
+	font-size: 18px;
+	padding: 10px 0;
+	width: 100%;
 }
 .headers{
-  padding-top: 100px;
+
 	text-align: center;
 	font-family: "raleway", sans-serif;
-	font-size: 2em;
-		
+	font-size: 40px;
+
+}
+.links{
+  	text-align: center;
+  	padding-top: 60px;
+	font-family: "poppins", sans-serif;
+	font-size: 35px;
 }
 .icon{
-	width: 40px;
-	height: 40px;
-	padding-right: 30px;
+	height: 100px;
+	width: 100px;
+	object-fit: contain;
+	padding-right: 20px;
 }
-.project-tile{
-  height: 256px;
-  width: 256px;
-}
+/*.project-tile{
+  	width: auto;
+	max-height: 256px;
+}*/
+/*.certifs{
+	display: flex;
+	align-content: center;
+}*/
 #navbar{
   font-family: sans-serif;
   position: fixed;
@@ -60,65 +61,130 @@ footer{
   background-color: #333;
 }
 #navbar li{
-  float: right;
+  	float: right;
+	padding-bottom: 10px;
+	padding-right: 30px;
 }
 #navbar a{
   display: block;
   text-align: center;
-  padding: 15px;
+  padding: 5px;
 }
 #navbar a:hover{
   background-color: #111;
+	border-radius: 20px;
 }
-#welcome-section{
+/*#welcome-section{
   margin-top: 100px;
   height: 100vh;
-}
+}*/
 #title{
+	margin-top: 40vh;
   color: white;
   background-color: #374cab;
   border-radius: 45px;
 	text-align: center;
 	font-family: poppins, sans-serif;
 	letter-spacing: 1px;
-	font-size: 3.5em;
-  #padding: 2em 0;
+	font-size: 60px;
+  	padding: 20px 0;
+}
+#ProjCertif {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px 0 163px;
+}
+#aboutme{
+	background-color: mediumpurple;
+	padding-top: 100px;
+	margin-top: 90px;
+	padding-bottom: 50px;
 }
 #about{
 	font-family: roboto, sans-serif;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 25px;
+	line-height: 2em;
 }
-
-#resume{
-  text-align: center;
-  margin-top: 30vh;
-	text-align: center;
-	font-family: "poppins", sans-serif;
-	font-size: 2.5em;
+#funFacts{
+	float: left;
 }
-#projects{
-  height: 100vh;
-  /*margin: 100vh 0;*/
-  background-color: #7848E0;
+#funFacts p{
+	font-size: 30px;
+	padding-left: 35px;
 }
-#project-list{
+#funFacts ul{
+	list-style-type: circle;
+	font-size: 20px;
+	line-height: 2em;
+}
+#selfPic{
+	float: right;
+}
+#selfPic img{
+	padding-right: 15px;
+	height: 512px;
+	width: 512px;
+	object-fit: contain;
+}
+.clearfix{
+	clear: both;
+}
+/*#projects{
+  	height: 100vh;
+	background-color: #7848E0;
+}*/
+/*#project-list{
   font-family: roboto, sans-serif;
   display: flex;
   justify-content: space-evenly;
   margin-top: 90px;
-}
+}*/
 #social{
-  background-color: ##48B0E0;
-  height: 100vh;
-  /*margin-top: 550px;*/
-  /*margin: 10em 0;*/
+	padding-top: 100px;
+  margin: 200px;
+}
+#social-header{
 }
 #social-links{
 	display: flex;
 	justify-content: space-evenly;
-  padding: 20vh 0;
+	margin-top: 110px;
 	text-align: center;
 	font-family: "roboto",sans-serif;
-	font-size: 1.5em;
+	font-size: 25px;
 	}
+#social-links{
+	line-height: 0;
+}
+@media only screen and (max-width: 812px){
+	#selfPic img{
+		height: 256px;
+		width: 256px;
+		text-align: center;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+	#about{
+		font-size: 18px;
+	}
+	footer{
+    font-size: 6px;
+  	}
+	#navbar li{
+  	float: left;
+	}
+	#ProjCertif{
+		font-size: 30px;
+	}
+	#social-links{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	#social-links li{
+		margin-bottom: 40px;
+	}
+
+
+}
