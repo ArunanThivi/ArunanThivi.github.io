@@ -27,7 +27,7 @@ h2{
 }
 .welcomeIcon{
 	width: 75px;
-	height: 75px;
+	height: auto;
 }
 #navbar{
 	position: fixed;
@@ -63,7 +63,7 @@ h2{
 }
 #welcome{
 	float: left;
-	width: 50vw;
+	width: 50%;
 }
 #title{
     padding: 20px 0;
@@ -82,6 +82,7 @@ h2{
 	display: flex;
 	justify-content: space-evenly;
 	padding-left: 12vw;
+	flex-wrap: wrap;
 }
 #resume{
 	padding-left: 27vw;
@@ -95,13 +96,11 @@ h2{
 }
 #profile-pic{
     float: right;
-    width: auto;
+    width: 25vw;
     height: auto;
-    margin-top: 23vh;
+    padding-top: 23vh;
     margin-right: 5%;
     margin-left: auto;
-    margin-bottom: 13vh;
-    padding-right: 0px;
 }
 .clear{
 	clear: both;
@@ -124,6 +123,7 @@ h2{
 #skills-flex{
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 #languages ul{
 	margin-left: 4vw;
@@ -132,7 +132,7 @@ h2{
 	margin-right: 4vw;
 }
 #social{
-	
+	padding-bottom: 10vh;
 }
 figcaption{
 	font-family: "roboto", sans-serif;
@@ -144,7 +144,45 @@ figcaption{
 	display: flex;
 	justify-content: space-evenly;
 	padding-top: 10vh;
+	flex-wrap: wrap;
 }
 footer{
 	float: right;
+}
+@media screen and (max-width: 900px){
+	.welcomeIcon{
+		width: 85px;
+		margin-right: 50px;
+	}
+	#resume{
+		padding-left: 30vw;
+	}
+	.icon{
+		width: 150px;
+		padding-top: 10px;
+	}
+	#aboutme p{
+		text-align: left;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#home{
+		height: 130vh;
+	}
+	#title{
+		font-size: 20px;
+		margin-left: 0;
+		margin-top: 40px;
+	}
+	#profile-pic{
+		/*height: 150px;*/
+		width: 200px;
+		padding-right: 15%;
+		/*display: block;
+		margin-left: auto;
+		margin-right: auto;*/
+	}
+	#welcome{
+		width: 100%;
+	}
 }
