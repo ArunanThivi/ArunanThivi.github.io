@@ -1,190 +1,149 @@
-
+@charset "utf-8";
+/* CSS Document */
 html{
-	background-color: #4864e0;
 	scroll-behavior: smooth;
 }
-ul{
-	list-style-type: none;
+p{
+	text-align: center;
+	font-family: "roboto", sans-serif;
 }
 a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
-a:hover{
-  text-decoration-line: underline;
-}
-figcaption{
-  margin-top: 40px;
-  font-size: 26px;
-}
-footer{
-	background-color: gray;
-	text-align: right;
-	font-size: 18px;
-	padding: 10px 0;
-	width: 100%;
-}
-.headers{
-
-	text-align: center;
-	font-family: "raleway", sans-serif;
-	font-size: 40px;
-
-}
-.links{
-  	text-align: center;
-  	padding-top: 60px;
+h1{
+	padding-top: 25px;
 	font-family: "poppins", sans-serif;
-	font-size: 35px;
+	text-align: center;
+}
+h2{
+	font-family: "raleway", sans-serif;
+	text-align: center;
 }
 .icon{
-	height: 100px;
 	width: 100px;
-	object-fit: contain;
-	padding-right: 20px;
+	height: auto;
 }
-/*.project-tile{
-  	width: auto;
-	max-height: 256px;
-}*/
-/*.certifs{
-	display: flex;
-	align-content: center;
-}*/
+.welcomeIcon{
+	width: 75px;
+	height: 75px;
+}
 #navbar{
-  font-family: sans-serif;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  background-color: #333;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	margin: 0;
+	background-color: #333;
+}
+#navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 #navbar li{
   	float: right;
-	padding-bottom: 10px;
-	padding-right: 30px;
+	padding-right: 20px;
 }
 #navbar a{
-  display: block;
-  text-align: center;
-  padding: 5px;
+	display: block;
+	color: white;
+	font-family: sans-serif;
+  	text-align: center;
+  	padding: 10px;
+	text-decoration: none;
 }
 #navbar a:hover{
-  background-color: #111;
+ 	background-color: #111;
 	border-radius: 20px;
 }
-/*#welcome-section{
-  margin-top: 100px;
-  height: 100vh;
-}*/
-#title{
-	margin-top: 40vh;
-  color: white;
-  background-color: #374cab;
-  border-radius: 45px;
-	text-align: center;
-	font-family: poppins, sans-serif;
-	letter-spacing: 1px;
-	font-size: 60px;
-  	padding: 20px 0;
+#home{
+	background-color: #003262;
+	height: 100vh;
 }
-#ProjCertif {
+#welcome{
+	float: left;
+	width: 50vw;
+}
+#title{
+    padding: 20px 0;
+    margin-top: 30vh;
+	margin-bottom: 50px;
+	margin-left: 7vw;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 45px;
+    font-family: poppins, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+#links{
 	display: flex;
 	justify-content: space-evenly;
-	margin: 50px 0 163px;
+	padding-left: 12vw;
 }
-#aboutme{
-	background-color: mediumpurple;
-	padding-top: 100px;
-	margin-top: 90px;
-	padding-bottom: 50px;
-}
-#about{
-	font-family: roboto, sans-serif;
+#resume{
+	padding-left: 27vw;
+	color: white;
 	text-align: center;
-	font-size: 25px;
-	line-height: 2em;
+	font-family: "raleway", sans-serif;
+	font-size: 2em;
 }
-#funFacts{
-	float: left;
+#resume:hover{
+	text-decoration: underline;
 }
-#funFacts p{
-	font-size: 30px;
-	padding-left: 35px;
+#profile-pic{
+    float: right;
+    width: auto;
+    height: auto;
+    margin-top: 23vh;
+    margin-right: 5%;
+    margin-left: auto;
+    margin-bottom: 13vh;
+    padding-right: 0px;
 }
-#funFacts ul{
-	list-style-type: circle;
-	font-size: 20px;
-	line-height: 2em;
-}
-#selfPic{
-	float: right;
-}
-#selfPic img{
-	padding-right: 15px;
-	height: 512px;
-	width: 512px;
-	object-fit: contain;
-}
-.clearfix{
+.clear{
 	clear: both;
 }
-/*#projects{
-  	height: 100vh;
-	background-color: #7848E0;
-}*/
-/*#project-list{
-  font-family: roboto, sans-serif;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 90px;
-}*/
-#social{
-	padding-top: 100px;
-  margin: 200px;
+#technicals ul{
+	margin-right: 2.6vw;
+	font-size: 1.25em;
+	font-family: "roboto", sans-serif;
+	text-align: center;
+	list-style-position: inside;
+	line-height: 3;
 }
-#social-header{
+#skills{
+	
 }
-#social-links{
+#skills li{
+	font-family: "roboto", sans-serif;
+	margin-top: 10px;
+}
+#skills-flex{
 	display: flex;
 	justify-content: space-evenly;
-	margin-top: 110px;
-	text-align: center;
-	font-family: "roboto",sans-serif;
-	font-size: 25px;
-	}
-#social-links{
-	line-height: 0;
 }
-@media only screen and (max-width: 812px){
-	#selfPic img{
-		height: 256px;
-		width: 256px;
-		text-align: center;
-		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-	}
-	#about{
-		font-size: 18px;
-	}
-	footer{
-    font-size: 6px;
-  	}
-	#navbar li{
-  	float: left;
-	}
-	#ProjCertif{
-		font-size: 30px;
-	}
-	#social-links{
-		flex-direction: column;
-		justify-content: space-around;
-	}
-	#social-links li{
-		margin-bottom: 40px;
-	}
-
-
+#languages ul{
+	margin-left: 4vw;
+}
+#tools ul{
+	margin-right: 4vw;
+}
+#social{
+	
+}
+figcaption{
+	font-family: "roboto", sans-serif;
+	padding-top: 15px;
+	text-align: center;
+	
+}
+#social-flex{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 10vh;
+}
+footer{
+	float: right;
 }
