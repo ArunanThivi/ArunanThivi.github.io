@@ -24,6 +24,10 @@ h2{
 	font-family: "raleway", sans-serif;
 	text-align: center;
 }
+
+section {	
+	padding: 5vh 0 25vh;
+}
 .icon{
 	width: 100px;
 	height: auto;
@@ -63,7 +67,7 @@ h2{
 #home{
 	padding: 0;
 	margin: 0;
-	background-color: #003262;
+	background-color: #26467d;
 	height: 100vh;
 	width: 100%;
 }
@@ -111,26 +115,41 @@ h2{
 .clear{
 	clear: both;
 }
-#technicals ul{
-	margin-right: 2.6vw;
+#aboutme {
+	background-color: #2a9d8f;
+}
+#interests {
+	margin-top: 10vh;	
 	font-size: 1.25em;
 	font-family: "roboto", sans-serif;
 	text-align: center;
-	list-style-position: inside;
+	margin-right: 2.6vw;
 	line-height: 3;
 }
-#skills{
-	
+#interests ul{
+	margin-top: 10px;
+
+
+	list-style-position: inside;
+}
+#technicals {
+	width: 50%;
+}
+
+#personals {
+	width: 50%;
+}
+#skills {
+	background-color: #f4a261;
 }
 #skills li{
 	font-family: "roboto", sans-serif;
 	margin-top: 10px;
 }
-#skills-flex{
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+#social-flex{
+	padding-top: 10vh;
 }
+
 #languages ul{
 	margin-left: 4vw;
 }
@@ -138,6 +157,7 @@ h2{
 	margin-right: 4vw;
 }
 #social{
+	background-color: #e76f51;
 	padding-bottom: 10vh;
 }
 figcaption{
@@ -146,22 +166,101 @@ figcaption{
 	text-align: center;
 	
 }
-#social-flex{
+.flex{
 	display: flex;
 	justify-content: space-evenly;
-	padding-top: 10vh;
 	flex-wrap: wrap;
 }
+
 footer{
+	
 	float: right;
 }
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+visibility: hidden;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+margin-left: 10px;
+
+/* Position the tooltip text - see examples below! */
+position: absolute;
+z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+#projects {
+	background-color: #e9c46a;
+	
+}
+#projects-flex {
+	margin-left: 10%;
+	justify-content: flex-start;
+}
+
+#rockets:hover {
+	background-color: #CE1141;
+	color: white;
+}
+#gaming:hover {
+	background-color: #294069;
+	color: white;
+}
+#camping:hover {
+	background-color: forestgreen;
+}
+
+#music:hover {
+	background-color: violet;
+}
+.project {
+	display: block;
+	text-align: center;
+	width: 40%;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 40px;
+}
+
+
+.interest {
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 40%;
+}
+
+#spotifyiFrame {
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.projectIcon {
+	padding-top: 10px;
+}
+
+
+
 @media screen and (max-width: 900px){
 	.welcomeIcon{
 		width: 85px;
 		margin-right: 50px;
 	}
 	#resume{
-		padding-left: 30vw;
+		padding-left: 41vw;
 	}
 	.icon{
 		width: 150px;
@@ -180,15 +279,32 @@ footer{
 		margin-left: 0;
 		margin-top: 40px;
 	}
-	#profile-pic{
-		/*height: 150px;*/
-		width: 200px;
-		padding-right: 15%;
-		/*display: block;
-		margin-left: auto;
-		margin-right: auto;*/
+	#profile-pic{		
+		min-width: 200px;
+		padding-right: 25vw;	
+	}
+	#title {
+		width: 75vw;
+		margin-left: 12.5vw;
 	}
 	#welcome{
 		width: 100%;
+	}
+	#technicals {
+		width: 100%;
+	}
+	
+	#personals {
+		width: 100%;
+	}
+	#projects-flex {
+		margin-left: 0;
+	}
+	.project {
+		width: 100vw;
+	}
+
+	.interest {		
+		font-size: medium;
 	}
 }

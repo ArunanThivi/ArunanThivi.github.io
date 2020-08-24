@@ -23,7 +23,9 @@
 		<ul>
 			<li><a href="#social">Socials</a></li>
 			<li><a href="#skills"> Skills </a></li>
+			<li><a href="#projects"> Projects</a></li>
 			<li><a href="#aboutme"> About Me</a></li>
+			<li><a href="#home"> Home</a></li>
 		</ul>
 	</nav>
 	<section id="home">
@@ -35,7 +37,7 @@
 				<a href="misc_files/resume.pdf" target="_blank" id="resume"> Resumé&nbsp;</a>
 				<br><br>
 			<div id="links">
-			  	<a href="LinkedIn.html" target="_blank">
+			  	<a href="https://www.linkedin.com/in/arunanthivi" target="_blank">
 					<img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" class="welcomeIcon" alt="LinkedIn">
 				</a>
 				<a href="https://github.com/ArunanThivi" target="_blank">
@@ -49,28 +51,59 @@
 	</section>
 	<section id="aboutme"><br>
 		<h1> About Me!</h1>
-		<p> My name is Arunan Thiviyanathan and I'm a first year student studying Computer Science at the <u>University of California - Berkeley</u>! (<a href="misc_files/Notes/CS 61b_index.html">Go Bears!</a>)
-		<br>I know that Computer Science is the future of humanity and I am driven to use my skills to make an impact on the world 😊</p>
-		<!--Fun Facts
-		<ul>
-			<li>I can't shoot a basketball for the life of me, but I'll always be cheering on my hometown Houston Rockets</li>
-			<li>I love a good adventure in the great outdoors</li>
-			<li></li>
-		</ul> -->
-		<div id="technicals">
-			<h2>Technical Interests</h2>
-			<ul>
-				<li>Data Science</li>
-				<li>Web Design</li>
-				<li>Software Engineering</li>
-				<li>IT Administration</li>
-			</ul>
-			<!--<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1EpjXOul0dI8wN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>-->
+		<p> My name is Arunan Thiviyanathan and I'm a first year student studying Computer Science at the <u>University of California - Berkeley</u>! (Go Bears!)
+		<br>The possibilities in Computer Science is </p>
+		<div id = "interests" class="flex">
+			<div id="technicals">
+				<h2>Technical Interests</h2>
+				<ul>
+					<li>Software Engineering</li>
+					<li>Web Design</li>
+					<li>Data Science</li>
+					<li>IT Administration</li>
+				</ul>
+			</div>
+			<div id="personals">
+				<h2>Personal Interests</h2>
+					<div id="personals-flex" class="flex">
+					<div class='interest' id="rockets">🏀  NBA Basketball<br><p>Go Rockets!🚀🚀🚀</p></div>
+					<div class='interest' id='gaming'>🎮  eSports<br><p>I'm always down for a game of Overwatch or Super Smash Bros. 😉</p></div>
+					<div class='interest' id='camping'>⛺  Outdoorsmanship<br><p>Nothing feels more free than being lost in the middle of nowhere</p></div>
+					<div class='interest' id='music'>🎶  Finding new music to jam out to!<br> <span onClick="showSongs()" style=" font-weight: bold; cursor:pointer;">Click here to see what I'm currently listening to!</span><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1EpjXOul0dI8wN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id="spotifyiFrame"></iframe></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="projects">
+		<h1>Projects</h1>
+		<div id="projects-flex" class = 'flex'>
+			<div id="spotifyApp" onclick="location.href='https://spotify.arunanthivi.com/';" style="cursor:pointer;" class='project'>
+				<img src="misc_files/Spotify-Logo.png" class="icon projectIcon" id='spotifyLogo'><br>
+				<p>Developed a web app using the Spotify API to generate a feature profile based on a user's most listened to songs or a specified playlist<br>
+				Languages used: HTML, CSS, JS<br><span style="font-weight: bold">Click here to check it out!</span></p>
+			</div>
+			<div id="enigma" class='project'>
+				<img src="misc_files/puzzle.png" class="icon projectIcon" id='puzzle'><br>
+				<p>Developed a computer model of the Engima machine used by Nazi soldiers to encrypt and decrypt messages during World War II.<br>
+				Languages used: Java<br>&lt;Source private due to Course policy&gt;</p>
+			</div>
+			<div id="gitlet" class='project'>
+				<img src="misc_files/cmd.png" class="icon projectIcon" id='gitlet'><br>
+				<p>Developed a Functional Version Control System for use in tracking files and their respective version history.<br>
+				Languages used: Java<br>&lt;Source private due to Course policy&gt;</p>
+			</div>
+			<div id="signpost" class='project'>
+				<img src="misc_files/game.png" class="icon projectIcon" id='poker'><br>
+				<p>Developed a text-based representation of Texas Hold 'Em Poker<br>
+				Languages used: Python<br>
+				<span style="font-size: small">In collaboration with Orrin Ni and Mark Cheung<br></span>
+				<span onClick="location.href='https://github.com/ArunanThivi/MFY-Poker/blob/master/Poker_Final_Project.py';" style="font-weight: bold; cursor:pointer;"> Click here to view the Source</span></p>
+			</div>
 		</div>
 	</section>
 	<section id="skills">
 		<h1> Skills</h1>
-		<div id="skills-flex">
+		<div id="skills-flex" class="flex">
 		  	<div id="languages" class="skill-subheader">
 				<h2>Languages</h2>
 			  	<img src="misc_files/language-icons.png" width="250" height="250" alt="Java, Python, HTML5, CSS3, JavaScript">
@@ -100,7 +133,7 @@
 	</section>
 	<section id="social">
 		<h1>Socials</h1>
-		<div id="social-flex">
+		<div id="social-flex" class="flex">
 			<a href="https://www.facebook.com/arunan.thiviyanathan" target="_blank">
 				<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" class="icon" alt="Facebook"><figcaption>Facebook</figcaption>
 			</a>
@@ -113,8 +146,20 @@
 
 
 		</div>
-
 	</section>
 	<footer> Arunan Thiviyanathan © 2020 </footer>
+
+	<script>
+		document.getElementById("spotifyiFrame").style.display = "none";
+		var songsShowing = false
+		function showSongs() {
+			if (songsShowing == false) {
+				document.getElementById("spotifyiFrame").style.display = "block";				
+			} else {
+				document.getElementById("spotifyiFrame").style.display = "none";
+			}
+			songsShowing = !songsShowing
+		}
+	</script>
 </body>
 </html>
