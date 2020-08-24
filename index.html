@@ -67,7 +67,7 @@
 					<div class='interest' id="rockets">🏀  NBA Basketball<br><p>Go Rockets!🚀🚀🚀</p></div>
 					<div class='interest' id='gaming'>🎮  eSports<br><p>I'm always down for a game of Overwatch or Super Smash Bros. 😉</p></div>
 					<div class='interest' id='camping'>⛺  Outdoorsmanship<br><p>Nothing feels more free than being lost in the middle of nowhere</p></div>
-					<div class='interest' id='music'>🎶  Finding new music to jam out to!<br> <span onClick="showSongs()" style=" font-weight: bold; cursor:pointer;">Click here to see what I'm currently listening to!</span><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1EpjXOul0dI8wN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id="spotifyiFrame"></iframe></div>
+					<div class='interest' id='music'>🎶  Finding new music to jam out to!<br> <span onClick="showSongs()" style=" font-weight: bold; cursor:pointer;">Click here to see what I'm currently listening to!</span><br><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1EpjXOul0dI8wN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id="spotifyiFrame"></iframe></div>
 				</div>
 			</div>
 		</div>
@@ -151,10 +151,14 @@
 		document.getElementById("spotifyiFrame").style.display = "none";
 		var songsShowing = false
 		function showSongs() {
-			if (songsShowing == false) {
-				document.getElementById("spotifyiFrame").style.display = "block";				
+			if (window.innerWidth > 768) {
+				if (songsShowing == false) {
+					document.getElementById("spotifyiFrame").style.display = "block";				
+				} else {
+					document.getElementById("spotifyiFrame").style.display = "none";
+				}
 			} else {
-				document.getElementById("spotifyiFrame").style.display = "none";
+				document.getElementById("spotifyiFrame").replaceWith("Not available on Mobile");
 			}
 			songsShowing = !songsShowing
 		}
