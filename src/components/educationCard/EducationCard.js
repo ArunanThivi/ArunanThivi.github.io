@@ -1,6 +1,6 @@
 import React, {createRef, useContext} from "react";
 import {Fade, Slide} from "react-reveal";
-import "./EducationCard.scss";
+import "./EducationCard.css";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function EducationCard({school}) {
@@ -16,9 +16,6 @@ export default function EducationCard({school}) {
       : null;
   };
   const {isDark} = useContext(StyleContext);
-
-  if (!school.logo)
-    console.error(`Image of ${school.name} is missing in education section`);
   return (
     <div>
       <Fade left duration={1000}>
