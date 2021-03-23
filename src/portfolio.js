@@ -27,6 +27,7 @@ const socialMediaLinks = {
   gmail: "arunant@berkeley.edu",
   instagram: "https://instagram.com/arunanthivi",
   facebook: "https://www.facebook.com/arunan.thiviyanathan",
+  spotify: "https://open.spotify.com/user/arunankogulan",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -180,34 +181,23 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some Projects that I've finished",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/SpotifyLogo.png"),
+      projectName: "FeatureSearch",
+      projectDesc: "A Web App to analyze trends in a user's music tastes, based on the past 6 months of listening history through Spotify",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check it out!",
+          url: "http://spotify.arunanthivi.com/"
         }
         //  you can add extra buttons here.
       ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -335,7 +325,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "ArunanThivi", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 export {
