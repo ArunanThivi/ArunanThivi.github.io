@@ -12,10 +12,10 @@ const greeting = {
   username: "Arunan T",
   title: "Hi! I'm Arunan!",
   subTitle: emoji(
-    "A naturally curious, creative, and motivated student 👨‍💻 Experienced in Software development in Python and Java, and currently experimenting with Node.js."
+    "A naturally curious, creative, and motivated student 👨‍💻 Experienced in Software development in Python and Java, and currently experimenting with React.JS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1uTRCwEcitntibWhLMM8JCiCVYA5t8PK9/view?usp=sharing",
+    "https://drive.google.com/file/d/1VzMfV7KaL3k5O3rYBiJk2s9zA-glYWba/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -85,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
     },
   ],
@@ -100,9 +100,9 @@ const educationInfo = {
     {
       schoolName: "University of California, Berkeley",
       logo: require("./assets/images/CalLogo.png"),
-      subHeader: "Major: Computer Science (B.A)",
+      subHeader: "Major: Computer Science (B.A)\nMinor: Data Science",
       duration: "August 2019 - April 2023 (Expected)",
-      desc: "GPA: 3.696",
+      desc: "GPA: 3.742",
     }
   ]
 };
@@ -114,16 +114,16 @@ const techStack = {
   experience: [
     {
       Stack: "Backend", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Data Science and Machine Learning",
+      progressPercentage: "60%"
     },
     {
       Stack: "Frontend",
       progressPercentage: "45%"
     },
-    {
-      Stack: "Data Science and Visualization",
-      progressPercentage: "40%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -134,15 +134,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Senior Mentor",
       company: "Computer Science Mentors",
       companylogo: require("./assets/images/CSMLogo.png"),
       date: "January 2021 – Present",
       desc:
         "CSM is a student-run organization that provides guidance and resources in a smaller classroom environment through group tutoring sessions",
       descBullets: [
-        "Led weekly tutoring sections of 5 students for Berkeley’s Computer Architecture course",
-        "Assisted Course Staff in developing review material for class of 1200 students"
+        "Volunteered in leading weekly mentoring sessions online for undergraduate students enrolled in UC Berkeley’s Computer Architecture course",
+        "Collaborated with UC Berkeley course staff to develop exam review material used by a class of 1200 students"
       ]
     },
     {
@@ -153,18 +153,18 @@ const workExperiences = {
       desc:
         "Political Computer Science @ Berkeley is a UC Berkeley student organization that celebrates the intersection of politics and computing.",
       descBullets: [
-        "Led weekly discussions on the role of computer science in political current events",
-        "Managed Budget and logistics for club of 40 active members"
+        "Transitioned weekly discussions on the role of tech in current events onto an online format due to the COVID-19 pandemic",
+        "Mentored 6 teams who completed politically themed programming projects over the course of a semester"
       ]
     },
     {
-      role: "Academic Intern",
+      role: "Undergraduate Student Instructor",
       company: "University of California",
       companylogo: require("./assets/images/CalEECSLogo.jpg"),
-      date: "Jan 2020 – May 2020",
+      date: "June 2021 – Present",
       descBullets: [
-        "Assisted Teaching Assistant in managing lab sections of 30+ students",
-        "Independently tutored students in fundamental concepts in computer science"
+        "Led Weekly discussions for UC Berkeley's Computer Architecture Course of 500 students",
+        
       ]
     }
   ]
@@ -182,7 +182,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some Projects that I've finished",
+  subtitle: "Some of my Favorite Projects",
   projects: [
     {
       image: require("./assets/images/SpotifyLogo.png"),
