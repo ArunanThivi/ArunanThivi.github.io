@@ -100,7 +100,7 @@ const educationInfo = {
     {
       schoolName: "University of California, Berkeley",
       logo: require("./assets/images/CalLogo.png"),
-      subHeader: "Major: Computer Science (B.A)\nMinor: Data Science",
+      subHeader: "Major: Computer Science<br>(B.A)Minor: Data Science",
       duration: "August 2019 - April 2023 (Expected)",
       desc: "GPA: 3.742",
     }
