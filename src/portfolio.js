@@ -144,18 +144,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Internal Vice President",
-      company: "Political Computer Science @ Berkeley",
-      companylogo: require("./assets/images/PCSLogo.jpg"),
-      date: "January 2020 – Present",
-      desc:
-        "Political Computer Science @ Berkeley is a UC Berkeley student organization that celebrates the intersection of politics and computing.",
-      descBullets: [
-        "Transitioned weekly discussions on the role of tech in current events onto an online format due to the COVID-19 pandemic",
-        "Mentored 6 teams who completed politically themed programming projects over the course of a semester"
-      ]
-    },
-    {
       role: "Undergraduate Student Instructor",
       company: "University of California",
       companylogo: require("./assets/images/CalEECSLogo.jpg"),
@@ -163,6 +151,18 @@ const workExperiences = {
       descBullets: [
         "Led Weekly small group discussion sections to teach concepts in UC Berkeley’s Computer Architecture course",
         "Managed virtual Office Hours throughout the semester to provide 1-on-1 assistance to students",
+      ]
+    },
+    {
+      role: "Internal Vice President",
+      company: "Political Computer Science @ Berkeley",
+      companylogo: require("./assets/images/PCSLogo.jpg"),
+      date: "January 2021 – Present",
+      desc:
+        "Political Computer Science @ Berkeley is a UC Berkeley student organization that celebrates the intersection of politics and computing.",
+      descBullets: [
+        "Transitioned weekly discussions on the role of tech in current events onto an online format due to the COVID-19 pandemic",
+        "Mentored 6 teams who completed politically themed programming projects over the course of a semester"
       ]
     }
   ]
