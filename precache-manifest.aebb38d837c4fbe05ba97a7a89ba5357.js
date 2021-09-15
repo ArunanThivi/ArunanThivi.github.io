@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64a3407dd0d60759db3692e8193f9da2",
+    "revision": "be579ae07d141c91eb643429d3403e91",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "9b6c7a6e35b9035604f5",
+    "revision": "135bf0a4df63b90a3162",
     "url": "/static/css/main.837bfea6.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.fee802de.chunk.js"
   },
   {
-    "revision": "9b6c7a6e35b9035604f5",
-    "url": "/static/js/main.a4274a26.chunk.js"
+    "revision": "135bf0a4df63b90a3162",
+    "url": "/static/js/main.b8c2d512.chunk.js"
   },
   {
     "revision": "9489737f5000cd13b02c",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a8552979bb08d3d33b0f9eb012ba916f",
     "url": "/static/media/CalLogo.a8552979.png"
+  },
+  {
+    "revision": "bc4a6e8ff1fe3cac03af27bcf5937755",
+    "url": "/static/media/G4TV.bc4a6e8f.jpg"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
