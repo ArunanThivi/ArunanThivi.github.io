@@ -41,7 +41,6 @@ const skillsSection = {
     emoji(
       "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (A Houston Rockets fan for life)"
     ),
-    emoji("📖 I like to read when I get the time"),
     emoji("🎧 Whether I'm studying, working, or just chilling, I am ALWAYS listening to music"),
     emoji(
       "🎥 To flex my creative side, I like to mess around with video and photo editing in Adobe Premiere and Photoshop"
@@ -100,7 +99,7 @@ const educationInfo = {
     {
       schoolName: "University of California, Berkeley",
       logo: require("./assets/images/CalLogo.png"),
-      subHeader: "Major: Computer Science<br>(B.A)Minor: Data Science",
+      subHeader: "Major: Computer Science (B.A) Minor: Data Science",
       duration: "August 2019 - April 2023 (Expected)",
       desc: "GPA: 3.742",
     }
@@ -113,11 +112,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend", //Insert stack or technology you have experience in
+      Stack: "Data Science and Machine Learning", //Insert stack or technology you have experience in
       progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Data Science and Machine Learning",
+      Stack: "Backend",
       progressPercentage: "60%"
     },
     {
@@ -134,14 +133,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Mentor",
-      company: "Computer Science Mentors",
-      companylogo: require("./assets/images/CSMLogo.png"),
-      date: "January 2021 – Present",
+      role: "Software Engineering Intern",
+      company: "G4TV",
+      companylogo: require("./assets/images/G4TV.jpg"),
+      date: "June 2021 – Present",
       desc:
-        "CSM is a student-run organization that provides guidance and resources in a smaller classroom environment through group tutoring sessions",
+        "G4TV is a entertainment network primarily focused on video games and gaming culture",
       descBullets: [
-        "Volunteered in leading weekly mentoring sessions online for undergraduate students enrolled in UC Berkeley’s Computer Architecture course",
+        "Created a Computer Vision model to detect and recognize G4 Talent members throughout weekly Twitch livestreams using OpenCV",
         "Collaborated with UC Berkeley course staff to develop exam review material used by a class of 1200 students"
       ]
     },
@@ -163,8 +162,8 @@ const workExperiences = {
       companylogo: require("./assets/images/CalEECSLogo.jpg"),
       date: "June 2021 – Present",
       descBullets: [
-        "Led Weekly discussions for UC Berkeley's Computer Architecture Course of 500 students",
-        
+        "Led Weekly small group discussion sections to teach concepts in UC Berkeley’s Computer Architecture course",
+        "Managed virtual Office Hours throughout the semester to provide 1-on-1 assistance to students",
       ]
     }
   ]
