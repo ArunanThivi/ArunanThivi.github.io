@@ -136,12 +136,11 @@ const workExperiences = {
       role: "Software Engineering Intern",
       company: "G4TV",
       companylogo: require("./assets/images/G4TV.jpg"),
-      date: "June 2021 – Present",
+      date: "June 2021 – August 2021",
       desc:
         "G4TV is a entertainment network primarily focused on video games and gaming culture",
       descBullets: [
-        "Created a Computer Vision model to detect and recognize G4 Talent members throughout weekly Twitch livestreams using OpenCV",
-        "Collaborated with UC Berkeley course staff to develop exam review material used by a class of 1200 students"
+        "Created a Computer Vision model using OpenCV and PyTorch to detect and recognize G4 Talent members throughout weekly Twitch livestreams",
       ]
     },
     {
