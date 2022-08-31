@@ -36,12 +36,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "A Little Bit About Me",
-  subTitle: "A naurally curious student working towards mastering ALL the tech stacks",
+  subTitle:
+    "A naurally curious student working towards mastering ALL the tech stacks",
   skills: [
     emoji(
       "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (Go Rockets!)"
     ),
-    emoji("🎧 Whether I'm studying, working, or just chilling, I am ALWAYS listening to music"),
+    emoji(
+      "🎧 Whether I'm studying, working, or just chilling, I am ALWAYS listening to music"
+    ),
     emoji(
       "🎥 To flex my creative side, I like to mess around with video and photo editing in Adobe Premiere and Photoshop"
     )
@@ -86,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -101,7 +104,7 @@ const educationInfo = {
       logo: require("./assets/images/CalLogo.png"),
       subHeader: "Major: Computer Science (B.A) Minor: Data Science",
       duration: "August 2019 - December 2022 (Expected)",
-      desc: "GPA: 3.702",
+      desc: "GPA: 3.702"
     }
   ]
 };
@@ -122,7 +125,7 @@ const techStack = {
     {
       Stack: "React",
       progressPercentage: "55%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -149,28 +152,24 @@ const workExperiences = {
       company: "Qualtrics",
       companylogo: require("./assets/images/XM.jpg"),
       date: "May 2022 - August 2022",
-      desc:
-        "Worked with Ticketing team to allow clients to view and restore deleted tickets from the XM platform",
+      desc: "Worked with Ticketing team to allow clients to view and restore deleted tickets from the XM platform",
       descBullets: [
         "Wrote technical design specification with considerations for scalability and usability",
         "Worked cross functionally with Product Managers, quality engineers and UI designers to solidify product requirements"
       ]
     },
-    
+
     {
       role: "Software Engineering Intern",
       company: "G4TV",
       companylogo: require("./assets/images/G4TV.jpg"),
       date: "June 2021 - August 2021",
-      desc:
-        "Worked with Analytics team to create a CV model to detect G4 cast members in weekly livestreams",
+      desc: "Worked with Analytics team to create a CV model to detect G4 cast members in weekly livestreams",
       descBullets: [
         "Optimized machine learning model for accuracy and precision of recognizing cast members",
         "Generated demos weekly that would be shown to corporate management"
       ]
-    },
-    
-
+    }
   ]
 };
 
@@ -191,7 +190,8 @@ const bigProjects = {
     {
       image: require("./assets/images/SpotifyLogo.png"),
       projectName: "FeatureSearch",
-      projectDesc: "A Web App to analyze trends in a user's music tastes, based on the past 6 months of listening history through Spotify",
+      projectDesc:
+        "A Web App to analyze trends in a user's music tastes, based on the past 6 months of listening history through Spotify",
       footerLink: [
         {
           name: "Check it out!",
@@ -221,8 +221,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Project Specification",
-          url:
-            "https://cs61c.org/fa20/projects/proj3/#design-contest"
+          url: "https://cs61c.org/fa20/projects/proj3/#design-contest"
         },
         {
           name: "Announcement",
@@ -238,18 +237,21 @@ const achievementSection = {
       footerLink: [
         {
           name: "About the Award",
-          url:
-            "https://alumni.berkeley.edu/community/scholarships/leadership-award"
+          url: "https://alumni.berkeley.edu/community/scholarships/leadership-award"
         }
       ]
     },
 
     {
       title: "Eagle Scout",
-      subtitle: "Achieved highest rank in Boy Scouts of America. Earned 36 Merit Badges and independently designed and managed community service project for Galveston Island State Park. Awarded to 1% of Boy Scouts nationally",
+      subtitle:
+        "Achieved highest rank in Boy Scouts of America. Earned 36 Merit Badges and independently designed and managed community service project for Galveston Island State Park. Awarded to 1% of Boy Scouts nationally",
       image: require("./assets/images/BSALogo.png"),
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1oexl2KNM3oIjnFMZPaQc-Rw1hoIBvUTy/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1oexl2KNM3oIjnFMZPaQc-Rw1hoIBvUTy/view?usp=sharing"
+        },
         {
           name: "Final Project",
           url: "https://drive.google.com/file/d/1Ox5SQBidFUhURZxuU0dh9zHMUMUDE88q/view?usp=sharing"
@@ -269,8 +271,7 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
@@ -319,8 +320,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or sports or just want to say hi? Hit me up!",
+  subtitle: "Discuss a project or sports or just want to say hi? Hit me up!",
   number: "+1 409-354-6444",
   email_address: "arunant@berkeley.edu"
 };
