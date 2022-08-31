@@ -12,10 +12,10 @@ const greeting = {
   username: "Arunan T",
   title: "Hi! I'm Arunan!",
   subTitle: emoji(
-    "A naturally curious, creative, and motivated student 👨‍💻 Experienced in Software development in Python and Java, and currently experimenting with React.JS."
+    "A naturally curious, creative, and motivated student 👨‍💻 Experienced in full stack development in node.JS/React and backend development with Python and Java."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1VzMfV7KaL3k5O3rYBiJk2s9zA-glYWba/view?usp=sharing",
+    "https://drive.google.com/file/d/1RCxChYceXbhrHGCSlx6U_3NchhLmU8e4/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -39,7 +39,7 @@ const skillsSection = {
   subTitle: "A naurally curious student working towards mastering ALL the tech stacks",
   skills: [
     emoji(
-      "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (A Houston Rockets fan for life)"
+      "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (Go Rockets!)"
     ),
     emoji("🎧 Whether I'm studying, working, or just chilling, I am ALWAYS listening to music"),
     emoji(
@@ -100,8 +100,8 @@ const educationInfo = {
       schoolName: "University of California, Berkeley",
       logo: require("./assets/images/CalLogo.png"),
       subHeader: "Major: Computer Science (B.A) Minor: Data Science",
-      duration: "August 2019 - April 2023 (Expected)",
-      desc: "GPA: 3.742",
+      duration: "August 2019 - December 2022 (Expected)",
+      desc: "GPA: 3.702",
     }
   ]
 };
@@ -112,16 +112,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Data Science and Machine Learning", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "node.JS", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "60%"
+      Stack: "Python",
+      progressPercentage: "65%"
     },
     {
-      Stack: "Frontend",
-      progressPercentage: "45%"
+      Stack: "React",
+      progressPercentage: "55%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -133,38 +133,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineering Intern",
-      company: "G4TV",
-      companylogo: require("./assets/images/G4TV.jpg"),
-      date: "June 2021 – August 2021",
-      desc:
-        "G4TV is a entertainment network primarily focused on video games and gaming culture",
-      descBullets: [
-        "Created a Computer Vision model using OpenCV and PyTorch to detect and recognize G4 Talent members throughout weekly Twitch livestreams",
-      ]
-    },
-    {
       role: "Undergraduate Student Instructor",
       company: "University of California",
       companylogo: require("./assets/images/CalEECSLogo.jpg"),
-      date: "June 2021 – Present",
+      date: "June 2021 - Present",
+      desc: "Helped teach UC Berkeley's Great Ideas of Computer Architecture course (CS 61C)",
       descBullets: [
-        "Led Weekly small group discussion sections to teach concepts in UC Berkeley’s Computer Architecture course",
-        "Managed virtual Office Hours throughout the semester to provide 1-on-1 assistance to students",
+        "Led Weekly small group discussion sections to teach concepts in UC Berkeley's Computer Architecture course",
+        "Managed Office Hours throughout the semester to provide personalized assistance to students",
+        "Coordinated with professors and staff heads to organize class logisitics for 1200 students"
       ]
     },
     {
-      role: "Internal Vice President",
-      company: "Political Computer Science @ Berkeley",
-      companylogo: require("./assets/images/PCSLogo.jpg"),
-      date: "January 2021 – Present",
+      role: "Software Engineering Intern",
+      company: "Qualtrics",
+      companylogo: require("./assets/images/XM.jpg"),
+      date: "May 2022 - August 2022",
       desc:
-        "Political Computer Science @ Berkeley is a UC Berkeley student organization that celebrates the intersection of politics and computing.",
+        "Worked with Ticketing team to allow clients to view and restore deleted tickets from the XM platform",
       descBullets: [
-        "Transitioned weekly discussions on the role of tech in current events onto an online format due to the COVID-19 pandemic",
-        "Mentored 6 teams who completed politically themed programming projects over the course of a semester"
+        "Wrote technical design specification with considerations for scalability and usability",
+        "Worked cross functionally with Product Managers, quality engineers and UI designers to solidify product requirements"
       ]
-    }
+    },
+    
+    {
+      role: "Software Engineering Intern",
+      company: "G4TV",
+      companylogo: require("./assets/images/G4TV.jpg"),
+      date: "June 2021 - August 2021",
+      desc:
+        "Worked with Analytics team to create a CV model to detect G4 cast members in weekly livestreams",
+      descBullets: [
+        "Optimized machine learning model for accuracy and precision of recognizing cast members",
+        "Generated demos weekly that would be shown to corporate management"
+      ]
+    },
+    
+
   ]
 };
 
@@ -314,7 +320,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or sports or just want to say hi? I always get excited about meeting new people!",
+    "Discuss a project or sports or just want to say hi? Hit me up!",
   number: "+1 409-354-6444",
   email_address: "arunant@berkeley.edu"
 };
