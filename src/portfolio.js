@@ -150,7 +150,7 @@ const workExperiences = {
     {
       role: "Software Engineering Intern",
       company: "Qualtrics",
-      companylogo: require("./assets/images/XM.jpg"),
+      companylogo: require("./assets/images/xm.jpg"),
       date: "May 2022 - August 2022",
       desc: "Worked with Ticketing team to allow clients to view and restore deleted tickets from the XM platform",
       descBullets: [
