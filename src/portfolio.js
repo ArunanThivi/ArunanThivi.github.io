@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ArunanThivi",
   linkedin: "https://www.linkedin.com/in/arunanthivi/",
-  gmail: "arunant@berkeley.edu",
+  gmail: "mail@arunanthivi.com",
   instagram: "https://instagram.com/arunanthivi",
   facebook: "https://www.facebook.com/arunan.thiviyanathan",
   spotify: "https://open.spotify.com/user/arunankogulan",
@@ -102,9 +102,9 @@ const educationInfo = {
     {
       schoolName: "University of California, Berkeley",
       logo: require("./assets/images/CalLogo.png"),
-      subHeader: "Major: Computer Science (B.A) Minor: Data Science",
-      duration: "August 2019 - December 2022 (Expected)",
-      desc: "GPA: 3.702"
+      subHeader: "Major: Computer Science",
+      duration: "August 2019 - December 2022",
+      desc: "GPA: 3.648"
     }
   ]
 };
@@ -136,10 +136,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Developer",
+      company: "Supplyframe",
+      companylogo: require("./assets/images/supplyframeLogo.jpeg"),
+      date: "June 2021 - Present",
+      desc: "Worked on developing the Supplyframe Design-to-Source Intelligence Platform",
+      descBullets: [
+        "Built out Risk Index feature to allow customers to customise how they assess risk in sourcing components",
+        "Assisted in developing a new User Interface framework to use across all Supplyframe products",
+        "Developed a tool to assist suppliers in price negotiations utilizing Chat-GPT"
+      ]
+    },
+    {
       role: "Undergraduate Student Instructor",
       company: "University of California",
       companylogo: require("./assets/images/CalEECSLogo.jpg"),
-      date: "June 2021 - Present",
+      date: "June 2021 - December 2022",
       desc: "Helped teach UC Berkeley's Great Ideas of Computer Architecture course (CS 61C)",
       descBullets: [
         "Led Weekly small group discussion sections to teach concepts in UC Berkeley's Computer Architecture course",
@@ -187,6 +199,19 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Some of my Favorite Projects",
   projects: [
+    {
+      image: require("./assets/images/SpotifyLogo.png"),
+      projectName: "SwipeSearch",
+      projectDesc:
+        "Efficently parse through a Spotify Playlist/Album and save your favorite songs (Optimized for Mobile)",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "http://swipe.arunanthivi.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/SpotifyLogo.png"),
       projectName: "FeatureSearch",
@@ -322,7 +347,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or sports or just want to say hi? Hit me up!",
   number: "+1 409-354-6444",
-  email_address: "arunant@berkeley.edu"
+  email_address: "mail@arunanthivi.com"
 };
 
 // Twitter Section
