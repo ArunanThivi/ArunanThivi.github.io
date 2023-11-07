@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Arunan",
+  title: "Hi! I'm Arunan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A naturally curious, creative, and motivated student 👨‍💻 Experienced in full stack development in node.JS/React and backend development with Python and Java."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1RCxChYceXbhrHGCSlx6U_3NchhLmU8e4/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ArunanThivi",
+  linkedin: "https://www.linkedin.com/in/arunanthivi/",
+  gmail: "mail@arunanthivi.com",
+  instagram: "https://instagram.com/arunanthivi",
+  facebook: "https://www.facebook.com/arunan.thiviyanathan",
+  spotify: "https://open.spotify.com/user/arunankogulan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +47,18 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "A Little Bit About Me",
+  subTitle:
+    "A naurally curious student working towards mastering ALL the tech stacks",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (Go Rockets!)"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🎧 Whether I'm studying, working, or just chilling, I am ALWAYS listening to music"
+    ),
+    emoji(
+      "🎥 To flex my creative side, I like to mess around with video and photo editing in Adobe Premiere and Photoshop"
     )
   ],
 
@@ -64,6 +66,14 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -81,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -89,28 +99,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -126,23 +120,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of California, Berkeley",
+      logo: require("./assets/images/CalLogo.png"),
+      subHeader: "Major: Computer Science",
+      duration: "August 2019 - December 2022",
+      desc: "GPA: 3.648"
     }
   ]
 };
@@ -153,16 +135,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "node.JS", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Python",
+      progressPercentage: "65%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Verilog/VLSI",
+      progressPercentage: "55%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +156,51 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer",
+      company: "Supplyframe",
+      companylogo: require("./assets/images/supplyframeLogo.jpeg"),
+      date: "June 2021 - Present",
+      desc: "Worked on developing the Supplyframe Design-to-Source Intelligence Platform",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built out Risk Index feature to allow customers to customise how they assess risk in sourcing components",
+        "Assisted in developing a new User Interface framework to use across all Supplyframe products",
+        "Developed a tool to assist suppliers in price negotiations utilizing Chat-GPT"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Undergraduate Student Instructor",
+      company: "University of California",
+      companylogo: require("./assets/images/CalEECSLogo.jpg"),
+      date: "June 2021 - December 2022",
+      desc: "Helped teach UC Berkeley's Great Ideas of Computer Architecture course (CS 61C)",
+      descBullets: [
+        "Led Weekly small group discussion sections to teach concepts in UC Berkeley's Computer Architecture course",
+        "Managed Office Hours throughout the semester to provide personalized assistance to students",
+        "Coordinated with professors and staff heads to organize class logisitics for 1200 students"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineering Intern",
+      company: "Qualtrics",
+      companylogo: require("./assets/images/xm.jpg"),
+      date: "May 2022 - August 2022",
+      desc: "Worked with Ticketing team to allow clients to view and restore deleted tickets from the XM platform",
+      descBullets: [
+        "Wrote technical design specification with considerations for scalability and usability",
+        "Worked cross functionally with Product Managers, quality engineers and UI designers to solidify product requirements"
+      ]
+    },
+
+    {
+      role: "Software Engineering Intern",
+      company: "G4TV",
+      companylogo: require("./assets/images/G4TV.jpg"),
+      date: "June 2021 - August 2021",
+      desc: "Worked with Analytics team to create a CV model to detect G4 cast members in weekly livestreams",
+      descBullets: [
+        "Optimized machine learning model for accuracy and precision of recognizing cast members",
+        "Generated demos weekly that would be shown to corporate management"
+      ]
     }
   ]
 };
@@ -212,30 +216,33 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some of my Favorite Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/SpotifyLogo.png"),
+      projectName: "SwipeSearch",
+      projectDesc:
+        "Efficently parse through a Spotify Playlist/Album and save your favorite songs (Optimized for Mobile)",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check it out!",
+          url: "http://swipe.arunanthivi.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/SpotifyLogo.png"),
+      projectName: "FeatureSearch",
+      projectDesc:
+        "A Web App to analyze trends in a user's music tastes, based on the past 6 months of listening history through Spotify",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Check it out!",
+          url: "http://spotify.arunanthivi.com/"
         }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -252,50 +259,47 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Best Design",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Placed 3rd out of 1200 students in designing the most efficent RISC-V CPU for UC Berkeley's Computer Architecture course. Competition was sponsored by Apple Inc.",
+      image: require("./assets/images/Apple-Logo.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Project Specification",
+          url: "https://cs61c.org/fa20/projects/proj3/#design-contest"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Announcement",
+          url: "https://drive.google.com/file/d/1NA2D6D6UfB3Vs4ceBfJPgAgwg63km61b/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "The Leadership Award",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Established in 1934, The Leadership Award is a one-year, merit-based scholarship that recognizes undergraduate students at UC Berkeley who demonstrate innovative, initiative-driven leadership impacting their academic, work, or community environments. Awarded to top 2% of students",
+      image: require("./assets/images/CAALogo.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "About the Award",
+          url: "https://alumni.berkeley.edu/community/scholarships/leadership-award"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Eagle Scout",
+      subtitle:
+        "Achieved highest rank in Boy Scouts of America. Earned 36 Merit Badges and independently designed and managed community service project for Galveston Island State Park. Awarded to 1% of Boy Scouts nationally",
+      image: require("./assets/images/BSALogo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1oexl2KNM3oIjnFMZPaQc-Rw1hoIBvUTy/view?usp=sharing"
+        },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://drive.google.com/file/d/1Ox5SQBidFUhURZxuU0dh9zHMUMUDE88q/view?usp=sharing"
         }
       ]
     }
@@ -324,7 +328,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +347,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +360,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? Hit me up!",
+  number: "+1-4093546444",
+  email_address: "mail@arunanthivi.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

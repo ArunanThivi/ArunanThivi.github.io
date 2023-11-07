@@ -32,6 +32,10 @@
   background-color: $faceBook;
 }
 
+.spotify i {
+  background-color: #1db954;
+}
+
 .linkedin i {
   background-color: $linkedin;
 }
@@ -70,6 +74,7 @@
 
 /* Hover Transition */
 .twitter i:hover,
+.spotify i:hover,
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,
