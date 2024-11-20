@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Arunan",
+  username: "Arunan T",
   title: "Hi! I'm Arunan",
   subTitle: emoji(
     "A naturally curious, creative, and motivated student 👨‍💻 Experienced in full stack development in node.JS/React and backend development with Python and Java."
@@ -37,7 +37,6 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/arunanthivi/",
   gmail: "mail@arunanthivi.com",
   instagram: "https://instagram.com/arunanthivi",
-  facebook: "https://www.facebook.com/arunan.thiviyanathan",
   spotify: "https://open.spotify.com/user/arunankogulan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -49,7 +48,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "A Little Bit About Me",
   subTitle:
-    "A naurally curious student working towards mastering ALL the tech stacks",
+    "A naurally curious student working to create ",
   skills: [
     emoji(
       "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (Go Rockets!)"
@@ -120,6 +119,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "University of California, San Diego",
+      logo: require("./assets/images/ucsd.png"),
+      subHeader: "Masters: Computer Science",
+      duration: "September 2024 - December 2025"
+    },
+    {
       schoolName: "University of California, Berkeley",
       logo: require("./assets/images/CalLogo.png"),
       subHeader: "Major: Computer Science",
@@ -156,10 +161,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Undergraduate Student Instructor",
+      company: "University of California",
+      companylogo: require("./assets/images/ucsd.png"),
+      date: "September 2024 - Present",
+      desc: "Helped teach UC San Diego's Systems Programming course (CSE 29)",
+      descBullets: [
+        "Led Weekly small group discussion sections to teach concepts in UC Berkeley's Computer Architecture course",
+        "Managed Office Hours throughout the semester to provide personalized assistance to students",
+        "Coordinated with professors and staff heads to organize class logisitics for 1200 students"
+      ]
+    },
+    {
       role: "Full Stack Developer",
       company: "Supplyframe",
       companylogo: require("./assets/images/supplyframeLogo.jpeg"),
-      date: "June 2021 - Present",
+      date: "June 2023 - September 2024",
       desc: "Worked on developing the Supplyframe Design-to-Source Intelligence Platform",
       descBullets: [
         "Built out Risk Index feature to allow customers to customise how they assess risk in sourcing components",
@@ -167,18 +184,7 @@ const workExperiences = {
         "Developed a tool to assist suppliers in price negotiations utilizing Chat-GPT"
       ]
     },
-    {
-      role: "Undergraduate Student Instructor",
-      company: "University of California",
-      companylogo: require("./assets/images/CalEECSLogo.jpg"),
-      date: "June 2021 - December 2022",
-      desc: "Helped teach UC Berkeley's Great Ideas of Computer Architecture course (CS 61C)",
-      descBullets: [
-        "Led Weekly small group discussion sections to teach concepts in UC Berkeley's Computer Architecture course",
-        "Managed Office Hours throughout the semester to provide personalized assistance to students",
-        "Coordinated with professors and staff heads to organize class logisitics for 1200 students"
-      ]
-    },
+    
     {
       role: "Software Engineering Intern",
       company: "Qualtrics",
@@ -210,7 +216,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -367,7 +373,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? Hit me up!",
-  number: "+1-4093546444",
   email_address: "mail@arunanthivi.com"
 };
 
@@ -378,7 +383,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
