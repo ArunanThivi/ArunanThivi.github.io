@@ -48,7 +48,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "A Little Bit About Me",
   subTitle:
-    "A naurally curious student working to create ",
+    "A naurally curious student using computer science to materialize cool ideas ",
   skills: [
     emoji(
       "🏀 When I'm not cranking the codes, I enjoy watching and playing Basketball (Go Rockets!)"
@@ -184,7 +184,7 @@ const workExperiences = {
         "Developed a tool to assist suppliers in price negotiations utilizing Chat-GPT"
       ]
     },
-    
+
     {
       role: "Software Engineering Intern",
       company: "Qualtrics",
@@ -371,8 +371,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? Hit me up!",
+  subtitle: "Want to discuss a project or just want to say hi? Hit me up!",
   email_address: "mail@arunanthivi.com"
 };
 
